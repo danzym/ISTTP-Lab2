@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAPIWebAppLab2", "LibraryAPIWebAppLab2\LibraryAPIWebAppLab2.csproj", "{1863035D-F03A-41EC-BA19-4B77AC5BD9E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAPIWebAppLab2.Tests", "LibraryAPIWebAppLab2.Tests\LibraryAPIWebAppLab2.Tests.csproj", "{28D84C1C-3BC6-4F88-BA12-264FAE446DCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1863035D-F03A-41EC-BA19-4B77AC5BD9E4} = {1863035D-F03A-41EC-BA19-4B77AC5BD9E4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1863035D-F03A-41EC-BA19-4B77AC5BD9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1863035D-F03A-41EC-BA19-4B77AC5BD9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1863035D-F03A-41EC-BA19-4B77AC5BD9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1863035D-F03A-41EC-BA19-4B77AC5BD9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D84C1C-3BC6-4F88-BA12-264FAE446DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D84C1C-3BC6-4F88-BA12-264FAE446DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D84C1C-3BC6-4F88-BA12-264FAE446DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D84C1C-3BC6-4F88-BA12-264FAE446DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A836192-B34B-4984-B65A-1367E331FAE0}
+	EndGlobalSection
+EndGlobal
